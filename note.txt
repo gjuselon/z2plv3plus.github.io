@@ -1,0 +1,44 @@
+- node_modules )for package
+
+- public => Entry point
+
+-src => source file
+    => components (.vue)
+        -Car Item
+    => views(.vue)
+        -Home, Shop
+
+
+.vue file
+    -> template (html)
+    -> script   (js)
+    -> style    (css)
+
+    Day 2
+
+    1=> In Browser 
+    2=> CLI
+    
+    1=> In Browser
+        - home.html/about.html/contact.html
+        -link href
+        -script src main framework
+            -creatApp
+                - data=> Variables define
+                - methods=> functions (return)
+                - computed=> functions (return)
+                - created()
+                - mounted()
+            -DOM
+                - reactivity
+                - rendering
+                - v-if / v-for / v-html/ v-bind / v-on
+
+    2=> CLI(Command Line Interface)
+        - index.html
+        - import
+        - import main framework
+        - create only Vue App
+            - views (.vue)
+            - router (route => view)
+            - components(.vue)

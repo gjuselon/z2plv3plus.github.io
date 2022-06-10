@@ -1,8 +1,8 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-    <PartFile parent="About">About page</PartFile>
-  </div>
+    <div>   
+        <h2 class="text-danger">Contact Page</h2>
+        <PartFile></PartFile>
+    </div>
 </template>
 
 <script>
@@ -10,7 +10,7 @@
 import PartFile from '@/components/PartFile.vue'
 
 export default {
-  name: 'AboutView',
+  name: 'ContactView',
   components: {
     PartFile,
   }
